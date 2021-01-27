@@ -14,11 +14,11 @@ export function* createCategory({ payload }) {
     );
 
     const response = yield call(api.post, '/categories', category);    
-    toast.success('Perfil atualizado com sucesso');
+    toast.success('Categoria cadastrada com sucesso');
 
     yield put(createSuccess(response.data));
   } catch (err) {
-    toast.error('eeErro ao atualizar perfil.');
+    toast.error('Erro ao cadastrar categoria.');
     yield put(createFailure());
     
   }

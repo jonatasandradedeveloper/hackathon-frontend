@@ -18,9 +18,9 @@ export default function AddCategory() {
   
   return (
     <>
-      <div className="Container">
+      <div className="ContainerC">
         <h1>Cadastrar <br/> -Categorias</h1>
-
+        
           <Form className="Form" initialData={category} onSubmit={handleSubmit}>
             <Input className="Input" name="name" placeholder="Nome da Categoria" />
             <Input className="Input" name="description" placeholder="Descrição da Categoria" />

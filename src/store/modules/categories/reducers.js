@@ -4,7 +4,7 @@ const INITIAL_STATE = {
   category: null,
 }; 
  
-export default function user(state = INITIAL_STATE, action) {
+export default function cate(state = INITIAL_STATE, action) {
   return produce(state, draft =>  {
   switch (action.type) {
     case '@categories/CREATE_SUCCESS': {

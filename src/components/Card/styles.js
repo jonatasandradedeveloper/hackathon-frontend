@@ -10,17 +10,18 @@ export const Content = styled.div`
  background: #fff;
   width: 350px;
   height: 300px;
-  padding: 100px 0;
+  padding: 80px 30px;
   border-radius: 5px;
   text-align: center;
 `;
 
 export const Title = styled.h1`
   color: #333;
+  margin-bottom: 20px;
 `;
 
 export const Sub = styled.span`
-
+  
 `;
 
 export const ContainerButton = styled.div`

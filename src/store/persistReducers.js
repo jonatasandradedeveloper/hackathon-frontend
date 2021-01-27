@@ -5,7 +5,7 @@ import { persistReducer } from 'redux-persist';
 export default reducers => {
   const persistedReducer = persistReducer(
     {
-      key: 'hackathon-arvore',
+      key: 'hackathon',
       storage,
       whitelist: [''],
     },

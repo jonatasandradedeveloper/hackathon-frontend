@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import api from "../../services/api";
 import CardProduct from "../../components/CardProduct";
-import { useParams, useHistory } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 
-import "./styles.js";
+import "./styles.css";
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -20,8 +20,10 @@ export default function Products() {
   return (
     <>
       <div>
+      <br/>
+      <Link className="Link" to="/product">Adicionar Produto</Link>
+
         {products.map((product) => 
-        
         <CardProduct
         name={product.name} 
         description={product.description} 

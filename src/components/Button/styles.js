@@ -6,4 +6,5 @@ export const ButtonRegister = styled.button`
   border: none;
   height: 50px;
   border-radius: 5px;
+  padding: 0 20px;
 `;
